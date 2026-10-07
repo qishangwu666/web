@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>留言板 - QSW的个人主页</title>
+</head>
+<body bgcolor="#f5f5f5" text="#333333" link="#667eea" vlink="#667eea" alink="#fb7299">
+
+<!-- 页面横幅 -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td align="center" valign="middle" height="140" bgcolor="#667eea">
+            <font size="6" color="#ffffff"><b>💬 留言板</b></font>
+            <br><br>
+            <font size="3" color="#e0e0ff">欢迎在这里留下你的足迹，我会认真阅读每一条留言</font>
+        </td>
+    </tr>
+</table>
+
+<br>
+
+<!-- 留言表单 + 留言列表 -->
+<table width="90%" border="0" cellpadding="10" cellspacing="10" align="center">
+    <tr>
+        <td width="50%" valign="top">
+            <table width="100%" border="0" cellpadding="20" cellspacing="0" bgcolor="#ffffff" style="box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+                <tr>
+                    <td>
+                        <font size="5" color="#333333"><b>发表留言</b></font>
+                        <hr width="60" size="4" color="#667eea" align="left">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <form method="post" action="mailto:QSW@example.com?subject=访客留言" enctype="text/plain">
+                            <table width="100%" border="0" cellpadding="8" cellspacing="0">
+                                <tr>
+                                    <td><font size="3" color="#555555">昵称：</font></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="text" name="昵称" size="40" maxlength="20" placeholder="请输入昵称（可用化名）" style="padding:8px;border:1px solid #ddd;border-radius:4px;font-size:14px;"></td>
+                                </tr>
+                                <tr><td height="8"></td></tr>
+                                <tr>
+                                    <td><font size="3" color="#555555">留言类型：</font></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="留言类型" style="padding:8px;border:1px solid #ddd;border-radius:4px;font-size:14px;">
+                                            <option value="鼓励支持">💪 鼓励支持</option>
+                                            <option value="技术交流">🗨️ 技术交流</option>
+                                            <option value="建议反馈">💡 建议反馈</option>
+                                            <option value="其他">📝 其他</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr><td height="8"></td></tr>
+                                <tr>
+                                    <td><font size="3" color="#555555">留言内容：</font></td>
+                                </tr>
+                                <tr>
+                                    <td><textarea name="留言内容" cols="45" rows="6" placeholder="写下你想说的话..." style="padding:8px;border:1px solid #ddd;border-radius:4px;font-size:14px;"></textarea></td>
+                                </tr>
+                                <tr><td height="12"></td></tr>
+                                <tr>
+                                    <td>
+                                        <input type="submit" value="发布留言" style="width:100%;padding:12px;background:#667eea;color:#fff;border:none;border-radius:4px;font-size:15px;font-weight:bold;cursor:pointer;">
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                        <p align="center"><font size="2" color="#999999">* 提交后将通过邮件客户端发送留言</font></p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+
+        <td width="50%" valign="top">
+            <table width="100%" border="0" cellpadding="20" cellspacing="0" bgcolor="#ffffff" style="box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+                <tr>
+                    <td>
+                        <font size="5" color="#333333"><b>留言列表</b></font>
+                        <hr width="60" size="4" color="#667eea" align="left">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table width="100%" border="0" cellpadding="12" cellspacing="8" bgcolor="#f5f5f5">
+                            <tr>
+                                <td>
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td><div style="width:28px;height:28px;border-radius:50%;background:#667eea;display:flex;align-items:center;justify-content:center;"><font size="2" color="#fff"><b>小</b></font></div></td>
+                                            <td><font size="3" color="#333333"><b>&nbsp;小明</b></font></td>
+                                            <td align="right"><font size="2" color="#999999">2026-09-22 10:00</font></td>
+                                        </tr>
+                                    </table>
+                                    <br>
+                                    <font size="3" color="#444444">QSW你好！你的个人主页设计得很棒，内容丰富，加油！</font>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr><td height="8"></td></tr>
+                <tr>
+                    <td>
+                        <table width="100%" border="0" cellpadding="12" cellspacing="8" bgcolor="#f5f5f5">
+                            <tr>
+                                <td>
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td><div style="width:28px;height:28px;border-radius:50%;background:#fb7299;display:flex;align-items:center;justify-content:center;"><font size="2" color="#fff"><b>红</b></font></div></td>
+                                            <td><font size="3" color="#333333"><b>&nbsp;红领巾</b></font></td>
+                                            <td align="right"><font size="2" color="#999999">2026-09-21 15:30</font></td>
+                                        </tr>
+                                    </table>
+                                    <br>
+                                    <font size="3" color="#444444">技能展示那块做得很清晰，学习了！期待更多作品。</font>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr><td height="8"></td></tr>
+                <tr>
+                    <td>
+                        <table width="100%" border="0" cellpadding="12" cellspacing="8" bgcolor="#f5f5f5">
+                            <tr>
+                                <td>
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td><div style="width:28px;height:28px;border-radius:50%;background:#4facfe;display:flex;align-items:center;justify-content:center;"><font size="2" color="#fff"><b>路</b></font></div></td>
+                                            <td><font size="3" color="#333333"><b>&nbsp;路人甲</b></font></td>
+                                            <td align="right"><font size="2" color="#999999">2026-09-20 09:15</font></td>
+                                        </tr>
+                                    </table>
+                                    <br>
+                                    <font size="3" color="#444444">页面布局很舒服，配色也好看，继续加油！</font>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr><td height="8"></td></tr>
+                <tr>
+                    <td>
+                        <table width="100%" border="0" cellpadding="12" cellspacing="8" bgcolor="#f5f5f5">
+                            <tr>
+                                <td>
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td><div style="width:28px;height:28px;border-radius:50%;background:#43e97b;display:flex;align-items:center;justify-content:center;"><font size="2" color="#fff"><b>匿</b></font></div></td>
+                                            <td><font size="3" color="#333333"><b>&nbsp;匿名访客</b></font></td>
+                                            <td align="right"><font size="2" color="#999999">2026-09-19 20:00</font></td>
+                                        </tr>
+                                    </table>
+                                    <br>
+                                    <font size="3" color="#444444">成长经历时间线做得很用心，赞一个！</font>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<br><br>
+
+<!-- 页脚 -->
+<table width="100%" border="0" cellpadding="15" cellspacing="0" bgcolor="#1a1a2e">
+    <tr><td align="center"><font size="2" color="#888888">© 2026 QSW的个人主页 | 用心记录每一步成长</font></td></tr>
+</table>
+
+</body>
+</html>
